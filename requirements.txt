@@ -1,4 +1,5 @@
 gymnasium
+gymnasium[toy-text]
 numpy
 tqdm
 matplotlib

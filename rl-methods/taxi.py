@@ -15,6 +15,7 @@ import matplotlib.pyplot as plt
 # ==========================================
 # ⚙️ CONFIGURATION
 # ==========================================
+
 ENV_NAME = "Taxi-v3"
 TRAIN_EPISODES = 2000
 MAX_STEPS = 100
