@@ -1,7 +1,7 @@
 import pygame
 import random
 import sys
-import lmstudio as lms
+
 
 pygame.init()
 
