@@ -21,11 +21,11 @@ IS_SLIPPERY = True
 
 # HYPERPARAMETERS
 TRAIN_EPISODES = 8000
-MAX_STEPS = 100
+MAX_STEPS = 50
 LEARNING_RATE = 0.5         # High rate for deterministic FrozenLake
 DISCOUNT_RATE = 0.95        # We care about the future reward (reaching the goal)
 EPSILON_START = 1.0
-EPSILON_DECAY = 0.001       # Slower decay: explores for ~1000 episodes
+EPSILON_DECAY = 0.01       # Slower decay: explores for ~1000 episodes
 EPSILON_MIN = 0.01
 
 def save_plots(rewards, env_name):
